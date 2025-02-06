@@ -8,7 +8,7 @@ App para conversão do arquivo de contatos exportado do cliente Zimbra para impo
 
 ## Configuração
 
-Para rodar utilizando o arquivo `wsgi.py`:
+Para rodar utilizando o arquivo `wsgi.py` utilizando powershell:
 
 ```
 git clone https://github.com/vsbits/zimbra_mdaemon_converter
