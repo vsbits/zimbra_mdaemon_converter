@@ -14,8 +14,8 @@ Para rodar utilizando o arquivo `wsgi.py`:
 git clone https://github.com/vsbits/zimbra_mdaemon_converter
 cd zimbra_mdaemon_converter
 python -m venv .venv
-source .venv/Acripts/Activate.ps1
-pip install --upgrade pip
+.venv/Scripts/Activate.ps1
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
