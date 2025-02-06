@@ -19,7 +19,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-**Necessário configurar a variável de ambiente `SECRET_KEY` antes inicialização do app, ou criar um arquivo `.env` na pasta raiz (mesma do arquivo `app.conf`) definindo a variável. Pode ser feito também pelo script `genetate_secret_key.py`:
+**Necessário configurar a variável de ambiente `SECRET_KEY` antes inicialização do app, ou criar um arquivo `.env` na pasta raiz (mesma do arquivo `app.conf`) definindo a variável. Pode ser feito também pelo script `genetate_secret_key.py`**:
 
 ```
 python generate_secret_key.py
