@@ -11,6 +11,7 @@ class Info(NamedTuple):
     position: int
     name: str
 
+
 Headers = List[Info]
 CsvLine = List[str]
 
@@ -28,7 +29,7 @@ def process_headers(headers: Sequence) -> Headers:
 
     if len(ignored) > 0:
         warn(f"Colunas descartadas: {ignored}")
-    
+
     if len(l) < 2:
         raise Exception("Less than 2 columns on final file")
 
